@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background: rgb(28,201,236);
+background: linear-gradient(90deg, rgba(28,201,236,1) 0%, rgba(9,9,121,1) 67%, rgba(9,26,69,1) 89%, rgba(9,35,41,1) 100%);
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 5em;
+    padding: 0;
+    margin: 0;
+    background: -webkit-linear-gradient(#4184e7, #c39edb);
+}
+input{
+    width: 60%;
+    height: 60px;
+    font-size: 50px;
+    text-align: center;
+}
+#inputtodo{
+    font-size: 2em;
+}
+.inputdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3%;
+}
+.addtodo{
+    width: 100px;
+    height: 40px;
+    margin-top: 1%;
+    background-color: lightblue;
+    border-radius: 22%;
+}
+button:hover{
+    cursor:cur ;
+}
+
+ .delBtn{
+    flex: 10% !important;
+    margin-top: 0.2% !important;
+    background-color: lightblue !important;
+    height: 100%;
+    width: 200px !important;
+   
+    
+}
+.editBtn{
+    flex: 10% !important;
+    margin-top: 0.2% !important;
+    background-color: lightblue !important;
+    height: 100%;
+    width: 200px !important;
+   
+    
+}
+.todos{
+    width: 90% !important;
+    height: 8vh;
+    display: flex ;
+    border: 1px solid rgb(0, 119, 128);
+    vertical-align: middle !important;
+    overflow-wrap: break-word;
+    align-items: center;
+    justify-content: center;   
+    margin-top: 1%;
+}
+.para{
+    flex: 60%;
+    text-align: center;
+    font-size: 4vw;
+    overflow-wrap: break-word;
+    
+}
+.tododiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+.todos:hover{
+    border: 5px solid blue;
+    box-shadow: inset;
+    background-color: mediumaquamarine;
+}
+.delBtn:hover{
+    border: 5px solid rgba(76, 0, 255, 0.363) ;
+    /* border-radius: 20%; */
+    background-color: rgb(205, 0, 0) !important;
+}
+.editBtn:hover{
+    border: 5px solid rgba(76, 0, 255, 0.363) ;
+    /* border-radius: 20%; */
+    background-color: rgb(185, 205, 0) !important;
+}
